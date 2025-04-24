@@ -1,0 +1,529 @@
+J|upper_second
+t|lower_first
+q|lower_first
+ |other
+j|lower_second
+n|lower_second
+u|lower_first
+o|lower_first
+w|lower_first
+ |other
+n|lower_first
+k|lower_second
+h|lower_second
+p|lower_second
+g|lower_second
+ |other
+r|lower_first
+h|lower_second
+q|lower_second
+ |other
+v|lower_first
+n|lower_second
+y|lower_first
+i|lower_second
+l|lower_second
+ |other
+h|lower_second
+o|lower_second
+q|lower_first
+k|lower_second
+ |other
+m|lower_second
+t|lower_first
+q|lower_first
+ |other
+x|lower_first
+m|lower_first
+s|lower_second
+r|lower_second
+ |other
+p|lower_first
+h|lower_second
+s|lower_first
+ |other
+n|lower_first
+q|lower_first
+g|lower_second
+q|lower_first
+m|lower_first
+m|lower_second
+t|lower_first
+ |other
+m|lower_second
+t|lower_first
+q|lower_first
+ |other
+l|lower_second
+t|lower_first
+m|lower_first
+p|lower_first
+r|lower_second
+ |other
+p|lower_second
+u|lower_first
+x|lower_first
+x|lower_first
+h|lower_second
+p|lower_second
+l|lower_second
+.|other
+ |other
+J|upper_second
+t|lower_first
+q|lower_first
+ |other
+p|lower_first
+h|lower_second
+s|lower_first
+,|other
+ |other
+l|lower_second
+m|lower_second
+m|lower_first
+k|lower_second
+m|lower_second
+x|lower_first
+q|lower_first
+p|lower_first
+ |other
+r|lower_first
+k|lower_second
+h|lower_second
+y|lower_first
+ |other
+t|lower_first
+u|lower_first
+l|lower_second
+ |other
+i|lower_second
+q|lower_first
+m|lower_first
+o|lower_first
+q|lower_first
+r|lower_first
+n|lower_second
+x|lower_first
+ |other
+m|lower_first
+r|lower_first
+m|lower_second
+q|lower_first
+k|lower_second
+g|lower_second
+h|lower_second
+h|lower_second
+g|lower_second
+ |other
+g|lower_second
+m|lower_first
+i|lower_second
+,|other
+ |other
+j|lower_second
+n|lower_second
+u|lower_first
+o|lower_first
+w|lower_first
+x|lower_first
+r|lower_second
+ |other
+k|lower_second
+u|lower_first
+l|lower_second
+q|lower_first
+l|lower_second
+ |other
+m|lower_first
+g|lower_second
+p|lower_first
+ |other
+o|lower_first
+t|lower_first
+m|lower_first
+l|lower_second
+q|lower_first
+l|lower_second
+ |other
+m|lower_first
+r|lower_first
+m|lower_second
+q|lower_first
+k|lower_second
+ |other
+m|lower_second
+t|lower_first
+q|lower_first
+ |other
+y|lower_first
+u|lower_first
+l|lower_second
+o|lower_first
+t|lower_first
+u|lower_first
+q|lower_first
+o|lower_second
+h|lower_second
+n|lower_second
+l|lower_second
+ |other
+r|lower_first
+h|lower_second
+q|lower_second
+.|other
+ |other
+J|upper_second
+t|lower_first
+k|lower_second
+h|lower_second
+n|lower_second
+s|lower_first
+t|lower_first
+ |other
+o|lower_second
+u|lower_first
+n|lower_first
+k|lower_second
+m|lower_first
+g|lower_second
+m|lower_second
+ |other
+y|lower_first
+q|lower_first
+m|lower_first
+p|lower_first
+h|lower_second
+p|lower_second
+l|lower_second
+ |other
+m|lower_first
+g|lower_second
+p|lower_first
+ |other
+i|lower_second
+m|lower_first
+l|lower_second
+m|lower_second
+ |other
+n|lower_first
+n|lower_second
+s|lower_second
+s|lower_second
+u|lower_first
+g|lower_second
+s|lower_first
+ |other
+n|lower_first
+q|lower_first
+q|lower_first
+t|lower_first
+u|lower_first
+o|lower_second
+q|lower_first
+l|lower_second
+ |other
+m|lower_second
+t|lower_first
+q|lower_first
+r|lower_second
+ |other
+k|lower_second
+m|lower_first
+o|lower_first
+q|lower_first
+,|other
+ |other
+p|lower_first
+u|lower_first
+l|lower_second
+m|lower_second
+n|lower_second
+k|lower_second
+n|lower_first
+u|lower_first
+g|lower_second
+s|lower_first
+ |other
+m|lower_first
+ |other
+r|lower_first
+x|lower_first
+h|lower_second
+o|lower_first
+w|lower_first
+ |other
+h|lower_second
+r|lower_first
+ |other
+j|lower_second
+n|lower_second
+m|lower_first
+u|lower_first
+x|lower_first
+l|lower_second
+ |other
+m|lower_second
+t|lower_first
+m|lower_first
+m|lower_second
+ |other
+l|lower_second
+o|lower_first
+m|lower_first
+m|lower_second
+m|lower_second
+q|lower_first
+k|lower_second
+ |other
+u|lower_first
+g|lower_second
+m|lower_second
+h|lower_second
+ |other
+m|lower_second
+t|lower_first
+q|lower_first
+ |other
+o|lower_first
+k|lower_second
+u|lower_first
+l|lower_second
+i|lower_second
+ |other
+m|lower_first
+n|lower_second
+m|lower_second
+n|lower_second
+y|lower_first
+g|lower_second
+ |other
+l|lower_second
+w|lower_first
+r|lower_second
+.|other
+ |other
+J|upper_second
+t|lower_first
+q|lower_first
+ |other
+r|lower_first
+h|lower_second
+q|lower_second
+,|other
+ |other
+j|lower_second
+n|lower_second
+u|lower_first
+m|lower_second
+q|lower_first
+ |other
+i|lower_second
+x|lower_first
+q|lower_first
+m|lower_first
+l|lower_second
+q|lower_first
+p|lower_first
+ |other
+p|lower_second
+u|lower_first
+m|lower_second
+t|lower_first
+ |other
+t|lower_first
+u|lower_first
+l|lower_second
+ |other
+o|lower_first
+x|lower_first
+q|lower_first
+o|lower_second
+q|lower_first
+k|lower_second
+ |other
+i|lower_second
+k|lower_second
+m|lower_first
+g|lower_second
+w|lower_first
+,|other
+ |other
+p|lower_first
+m|lower_first
+l|lower_second
+t|lower_first
+q|lower_first
+l|lower_second
+ |other
+u|lower_first
+g|lower_second
+m|lower_second
+h|lower_second
+ |other
+t|lower_first
+u|lower_first
+l|lower_second
+ |other
+o|lower_first
+h|lower_second
+s|lower_second
+r|lower_second
+ |other
+n|lower_second
+g|lower_second
+p|lower_first
+q|lower_first
+k|lower_second
+s|lower_first
+k|lower_second
+h|lower_second
+n|lower_second
+g|lower_second
+p|lower_first
+ |other
+p|lower_first
+q|lower_first
+g|lower_second
+ |other
+p|lower_second
+t|lower_first
+u|lower_first
+x|lower_first
+q|lower_first
+ |other
+m|lower_second
+t|lower_first
+q|lower_first
+ |other
+p|lower_first
+h|lower_second
+s|lower_first
+,|other
+ |other
+g|lower_second
+h|lower_second
+p|lower_second
+ |other
+q|lower_first
+q|lower_second
+t|lower_first
+m|lower_first
+n|lower_second
+l|lower_second
+m|lower_second
+q|lower_first
+p|lower_first
+ |other
+r|lower_first
+k|lower_second
+h|lower_second
+y|lower_first
+ |other
+m|lower_second
+t|lower_first
+q|lower_first
+ |other
+s|lower_second
+q|lower_first
+m|lower_first
+x|lower_first
+h|lower_second
+n|lower_second
+l|lower_second
+ |other
+i|lower_second
+n|lower_second
+k|lower_second
+l|lower_second
+n|lower_second
+u|lower_first
+m|lower_second
+,|other
+ |other
+k|lower_second
+q|lower_first
+m|lower_second
+n|lower_second
+k|lower_second
+g|lower_second
+l|lower_second
+ |other
+m|lower_second
+h|lower_second
+ |other
+t|lower_first
+u|lower_first
+l|lower_second
+ |other
+r|lower_first
+m|lower_first
+o|lower_second
+h|lower_second
+k|lower_second
+u|lower_first
+m|lower_second
+q|lower_first
+ |other
+l|lower_second
+i|lower_second
+h|lower_second
+m|lower_second
+ |other
+n|lower_second
+g|lower_second
+p|lower_first
+q|lower_first
+k|lower_second
+ |other
+m|lower_second
+t|lower_first
+q|lower_first
+ |other
+p|lower_second
+t|lower_first
+u|lower_first
+l|lower_second
+i|lower_second
+q|lower_first
+k|lower_second
+u|lower_first
+g|lower_second
+s|lower_first
+ |other
+n|lower_first
+k|lower_second
+m|lower_first
+g|lower_second
+o|lower_first
+t|lower_first
+q|lower_first
+l|lower_second
+ |other
+m|lower_second
+h|lower_second
+ |other
+k|lower_second
+q|lower_first
+l|lower_second
+n|lower_second
+y|lower_first
+q|lower_first
+ |other
+t|lower_first
+u|lower_first
+l|lower_second
+ |other
+j|lower_second
+n|lower_second
+u|lower_first
+q|lower_first
+m|lower_second
+ |other
+l|lower_second
+x|lower_first
+n|lower_second
+y|lower_first
+n|lower_first
+q|lower_first
+k|lower_second
+.|other

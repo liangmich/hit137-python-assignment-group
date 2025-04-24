@@ -133,9 +133,9 @@ def main():
     # Set file paths — please modify according to your system:
     # For Windows, use raw string literals (r"") to avoid escape sequences(r"\path\to\file.txt")
     # For Mac/Linux, use normal string literals ("/path/to/file.txt")
-    # Path to the input file
+    # Path to the input file fit for Mac
     input_path = "/Users/iammin/Documents/IT/HIT137 Python/HIT137 Assignment 2 S1 2025/raw_text.txt"
-    # Path to the output file
+    # Path to the output file fit for Mac
     encrypted_path = "/Users/iammin/Documents/IT/HIT137 Python/HIT137 Assignment 2 S1 2025/encrypted_text.txt"
 
     # Read the original file content

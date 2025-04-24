@@ -1,16 +1,23 @@
 def shift_char(c, shift_amount):
     """
-    Shifts an alphabetic character 'c' by 'shift_amount' with wrap-around.
-    Non-alphabetic characters remain unchanged.
+    Shifts an alphabetic character 'c' by 'shift_amount', using modulo to wrap around the alphabet.
+     - For lowercase letters, it wraps around 'a' to 'z' and vice versa.
+     - For uppercase letters, it wraps around 'A' to 'Z' and vice versa.
+     - Non-alphabetic characters remain unchanged.
     """
-    if c.islower():
-        base = ord('a')
+    if 'a' <= c <= 'z':  # If the input letter is lowercase (only shift standard ASCII letters)
+        base = ord('a')  # Base ASCII value for lowercase letters
         return chr((ord(c) - base + shift_amount) % 26 + base)
-    elif c.isupper():
+        # ord(c) - base gives the position of the letter in the alphabet(0-25)
+        # Adding the shift amount and using modulo 26 to wrap around the alphabet
+
+    # If the input letter is uppercase (only shift standard ASCII letters)
+    elif 'A' <= c <= 'Z':
         base = ord('A')
         return chr((ord(c) - base + shift_amount) % 26 + base)
     else:
-        return c
+        return c  # Non-alphabetic characters remain unchanged
+
 
 def classify_char(c):
     """
@@ -19,24 +26,31 @@ def classify_char(c):
       - 'lower_second': lowercase letter in the range n-z
       - 'upper_first': uppercase letter in the range A-M
       - 'upper_second': uppercase letter in the range N-Z
-      - 'other': other characters (digits, punctuation, spaces, etc.)
+      - 'other': non-alphabetic character
+        (e.g. digits, punctuation, spaces, or non-ASCII letters like é, ñ, etc.)
+      - Only standard ASCII letters (a-z, A-Z) are considered alphabetic characters.
     """
     if c.islower():
         if 'a' <= c <= 'm':
-            return 'lower_first'
+            return 'lower_first'  # If the letter is in the range a-m, return 'lower_first'
         elif 'n' <= c <= 'z':
-            return 'lower_second'
+            return 'lower_second'  # If the letter is in the range n-z, return 'lower_second'
         else:
+            # If the letter is not in the range a-z (e.g. non-ASCII letter like é,ñ),return 'other'
             return 'other'
     elif c.isupper():
         if 'A' <= c <= 'M':
-            return 'upper_first'
+            return 'upper_first'  # If the letter is in the range A-M, return 'upper_first'
         elif 'N' <= c <= 'Z':
-            return 'upper_second'
+            return 'upper_second'  # If the letter is in the range N-Z, return 'upper_second'
         else:
+            # If the letter is not in the range A-Z (e.g. non-ASCII letter like Ñ,Ü), return 'other'
             return 'other'
+
     else:
+        # If the character is not a standard letter (e.g. digit, punctuation, space), return 'other'
         return 'other'
+
 
 def encrypt_with_meta(text, n, m):
     """
@@ -50,8 +64,8 @@ def encrypt_with_meta(text, n, m):
       - Non-alphabetic characters remain unchanged.
     Returns a list where each element is formatted as "encrypted_character|classification".
     """
-    encrypted = []
-    for c in text:
+    encrypted = []  # List to store the encrypted characters and their classifications
+    for c in text:  # Iterate through each character in the input text
         ctype = classify_char(c)
         if ctype == 'lower_first':
             new_c = shift_char(c, n * m)
@@ -66,6 +80,7 @@ def encrypt_with_meta(text, n, m):
         encrypted.append(f"{new_c}|{ctype}")
     return encrypted
 
+
 def decrypt_with_meta(encrypted_data, n, m):
     """
     Restores the original characters using the encrypted data and the recorded classification.
@@ -74,13 +89,16 @@ def decrypt_with_meta(encrypted_data, n, m):
       - For 'upper_first': use a reverse shift of +n
       - For 'upper_second': use a reverse shift of -(m^2)
     """
-    decrypted = []
+    decrypted = []  # List to store the decrypted characters
     for item in encrypted_data:
         # Do not strip the line to preserve internal spaces
         if "|" not in item:
             decrypted.append(item)
             continue
+
         encrypted_char, ctype = item.split("|", 1)
+
+        # Depending on the classification, apply the appropriate reverse shift
         if ctype == 'lower_first':
             original_char = shift_char(encrypted_char, -(n * m))
         elif ctype == 'lower_second':
@@ -91,8 +109,11 @@ def decrypt_with_meta(encrypted_data, n, m):
             original_char = shift_char(encrypted_char, -(m ** 2))
         else:
             original_char = encrypted_char
+        # Append the decrypted character to the list
         decrypted.append(original_char)
+    # Join the decrypted characters into a single string
     return "".join(decrypted)
+
 
 def verify(original, decrypted):
     """
@@ -100,14 +121,22 @@ def verify(original, decrypted):
     """
     return original == decrypted
 
-def main():
-    # Get user input parameters
-    n = int(input("Enter value for n: "))
-    m = int(input("Enter value for m: "))
 
-    # Set file paths to C:\Users\ingram\Desktop\assignment
-    input_path = r"C:\Users\ingram\Desktop\assignment\raw_text.txt"
-    encrypted_path = r"C:\Users\ingram\Desktop\assignment\encrypted_text.txt"
+def main():
+    # Get user input for n and m
+    # n = int(input("Enter value for n: "))
+    # m = int(input("Enter value for m: "))
+    # Set fixed values for assignment output
+    n = 3  # Example value for n
+    m = 4  # Example value for m
+
+    # Set file paths — please modify according to your system:
+    # For Windows, use raw string literals (r"") to avoid escape sequences(r"\path\to\file.txt")
+    # For Mac/Linux, use normal string literals ("/path/to/file.txt")
+    # Path to the input file
+    input_path = "/Users/iammin/Documents/IT/HIT137 Python/HIT137 Assignment 2 S1 2025/raw_text.txt"
+    # Path to the output file
+    encrypted_path = "/Users/iammin/Documents/IT/HIT137 Python/HIT137 Assignment 2 S1 2025/encrypted_text.txt"
 
     # Read the original file content
     with open(input_path, 'r', encoding='utf-8') as f:
@@ -135,5 +164,7 @@ def main():
     else:
         print("❌ Decryption failed: The decrypted text does NOT match the original.")
 
+
 if __name__ == "__main__":
     main()
+
